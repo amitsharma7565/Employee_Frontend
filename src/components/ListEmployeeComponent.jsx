@@ -26,6 +26,7 @@ const ListEmployeeComponent = ()=>{
     //     }
     // ]
 
+    // data come from the backend 
     const [employees, setEmployees] = useState([])
         useEffect(()=>{
             listEmployees().then((response) =>{
